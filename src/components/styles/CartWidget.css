@@ -1,0 +1,14 @@
+.cart-icon {
+    max-width: 50px;
+    float: right;
+    transform: scale(1.5);
+    margin-right: 25px;
+}
+
+.cart-count {
+    float: right;
+    font-size: large;
+    transform: scale(2);
+    padding-right: 5px;
+    color:gold;
+}
