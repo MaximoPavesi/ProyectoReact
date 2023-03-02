@@ -40,14 +40,17 @@ export const ItemListContainer = () => {
             setProductos(data)
         }
     }, [categoria, subcategoria])
-     return (
-        productos ?
-        <div className="ItemList">
-            {productos.map(producto => (<item key={producto.id} id={producto.id} modelo={producto.modelo} precio={producto.precio} img={producto.img}/>))}
-        </div>
-        :
-        <div className="detailContainer">
-            <h2 className="mensaje">Cargando....</h2>
-        </div>
-     )
+    return (
+        <>
+            {productos ?
+                <div className="ItemList">
+                    {productos.map(producto => (<Item key={producto.id} id={producto.id} modelo={producto.modelo} precio={producto.precio} img={producto.img} />))}
+                </div>
+                :
+                <div className="detailContainer">
+                    <h2 className="mensaje">Cargando....</h2>
+                </div>
+            }
+        </>
+    )
 }
