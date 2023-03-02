@@ -3,6 +3,7 @@ import NavBar from "../Header/NavBar"
 import {Link} from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 import "../styles/header.css";
+import {data} from "../data";
 
 export const Header = () => {
     return (
