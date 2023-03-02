@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./ItemListContainer.css";
+import "../styles/ItemListContainer.css";
 import data from "../data";
-import {Item} from "./Item/Item";
+import {Item} from "./Item";
 
 export const ItemListContainer = () => {
     const { categoria, subcategoria} = useParams()

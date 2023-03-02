@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/NavBar.css';
 import {CartWigdet} from "../CartWidget/CartWidget"
-import {Menu} from "../Header/Menu"
+import {Link} from "react-router-dom"
 
 
 const Navbar = () => {
@@ -17,12 +17,28 @@ const Navbar = () => {
   	    <label for="menu-icon"></label>
   	    <nav class="nav"> 		
   		    <ul class="pt-5">
-  			    <li><a href="#">Inico</a></li>
-  			    <li><a href="#">Marcas</a></li>
-  			    <li><a href="#">Sobre Nosotros</a></li>
-  			    <li><a href="#">Contacto</a></li>
+				<li>
+					<Link to={Inicio}>Inicio</Link>
+				</li>
+				<li>
+					<Link to={Marcas}>Marcas</Link>
+				</li>
+				<ul>
+					<li>
+						<Link to={productos/botines/nike}>Nike</Link>
+					</li>
+					<li>
+						<Link to={productos/botines/adidas}>Adidas</Link>
+					</li>
+				</ul>
+				<li>
+					<Link to={productos/camisetas}>Camisetas</Link>
+				</li>
+				<li>
+					<Link to={productos/pelotas}>Pelotas</Link>
+				</li>
+
   		    </ul>
-			<Menu />
 			<CarWigdet cantidad={2} />
   	    </nav>
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import { ItemDetail } from "../Item/ItemDetail";
-import { ItemListContainer } from "../item/ItemListContainer";
+import {ItemListContainer} from "../Item/ItemListContainer";
 import { Routes, Route } from "react-router-dom";
 import {Landing} from "../landing/Landing";
 
