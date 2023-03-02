@@ -5,7 +5,7 @@ export const Item = ({id, img, modelo, precio}) => {
     return(
         <div className="card">
             <div className="cardFoto">
-                <img src={require(`../../img/productos/${img}`)} alt={modelo} />
+                <img src={require(`../img/productos/${img}`)} alt={modelo} />
             </div>
             <p>{modelo}</p>
             <p>{precio}</p>
