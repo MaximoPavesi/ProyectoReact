@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../Header/NavBar"
 import {Link} from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
+import "../styles/header.css";
 
 export const Header = () => {
     return (
@@ -10,7 +11,7 @@ export const Header = () => {
                 <div className="logo">
                     <button>
                         <Link to={'/'}>
-                            <img src={'/img/logo.webp'}  alt="logo de la empresa" />
+                            <img src={'/img/logo.png'}  alt="logo de la empresa" />
                         </Link>
                     </button>
                 </div>
