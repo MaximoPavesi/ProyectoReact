@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../Header/NavBar"
 import {Link} from "react-router-dom";
+import CartWidget from "../CartWidget/CartWidget";
 
 export const Header = () => {
     return (
@@ -15,6 +16,7 @@ export const Header = () => {
                 </div>
                 <h1>Foot Goal </h1>
             </div>
+            <CartWidget cantidad={2} />
             <NavBar/>
         </header>
     )
