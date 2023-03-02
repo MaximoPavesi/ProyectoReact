@@ -21,16 +21,11 @@ const NavBar = () => {
 					<Link to={"/Inicio"}>Inicio</Link>
 				</li>
 				<li>
-					<Link to={"/Marcas"}>Marcas</Link>
+					<Link to={"/productos/botines/nike"}>Nike</Link>
 				</li>
-				<ul>
-					<li>
-						<Link to={"/productos/botines/nike"}>Nike</Link>
-					</li>
-					<li>
-						<Link to={"/productos/botines/adidas"}>Adidas</Link>
-					</li>
-				</ul>
+				<li>
+					<Link to={"/productos/botines/adidas"}>Adidas</Link>
+				</li>
 				<li>
 					<Link to={"/productos/camisetas"}>Camisetas</Link>
 				</li>
