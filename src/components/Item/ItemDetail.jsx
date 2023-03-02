@@ -30,7 +30,7 @@ export const ItemDetail = () => {
         producto ?
         <div key={producto.id} className="detailContainer">
             <div className="detailFoto">
-                <img src={require(`../../img/productos/${producto.img}`)} alt={producto.modelo} />
+                <img src={`/img/productos/${producto.img}`} alt={producto.modelo} />
             </div>
             <div className="detailProducto">
                 <h2 className="detailTitulo">{producto.modelo}</h2>

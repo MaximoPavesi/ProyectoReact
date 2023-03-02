@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/ItemListContainer.css";
 import data from "../data";
 import {Item} from "./Item";
+import { useParams } from "react-router-dom";
 
 export const ItemListContainer = () => {
     const { categoria, subcategoria} = useParams()

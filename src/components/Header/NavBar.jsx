@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/NavBar.css';
-import {CartWigdet} from "../CartWidget/CartWidget"
+import CartWigdet from "../CartWidget/CartWidget"
 import {Link} from "react-router-dom"
 
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <>
          
@@ -18,28 +18,28 @@ const Navbar = () => {
   	    <nav class="nav"> 		
   		    <ul class="pt-5">
 				<li>
-					<Link to={Inicio}>Inicio</Link>
+					<Link to={"/Inicio"}>Inicio</Link>
 				</li>
 				<li>
-					<Link to={Marcas}>Marcas</Link>
+					<Link to={"/Marcas"}>Marcas</Link>
 				</li>
 				<ul>
 					<li>
-						<Link to={productos/botines/nike}>Nike</Link>
+						<Link to={"/productos/botines/nike"}>Nike</Link>
 					</li>
 					<li>
-						<Link to={productos/botines/adidas}>Adidas</Link>
+						<Link to={"/productos/botines/adidas"}>Adidas</Link>
 					</li>
 				</ul>
 				<li>
-					<Link to={productos/camisetas}>Camisetas</Link>
+					<Link to={"/productos/camisetas"}>Camisetas</Link>
 				</li>
 				<li>
-					<Link to={productos/pelotas}>Pelotas</Link>
+					<Link to={"/productos/pelotas"}>Pelotas</Link>
 				</li>
 
   		    </ul>
-			<CarWigdet cantidad={2} />
+			<CartWigdet cantidad={2} />
   	    </nav>
     </>
   )
