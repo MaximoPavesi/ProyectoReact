@@ -14,7 +14,7 @@ const data = [
         modelo: "tiempo legend",
         precio: 45000,
         stock: 0,
-        img: "tiempo-legend-nk.webp",
+        img: "timepo-legend-nk.webp",
         descripcion: "Bota de fútbol Nike Tiempo Legend 9 Elite SG-Pro Ac para adultos. Botas de piel, para utilizar en campos de hierba natural húmeda o mojada. Botas de gama alta en color  Space Purple-White.",
         categoria: "botines",
         subcategoria: "nike",
