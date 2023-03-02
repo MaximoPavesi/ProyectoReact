@@ -7,10 +7,10 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
     return (
         <>
-            <BrowserRouter/>
-            <Header/>
-            <Main/>
-            <BrowserRouter/>
+            <BrowserRouter>
+                <Header/>
+                <Main/>
+            </BrowserRouter>
         </>
     );
 }

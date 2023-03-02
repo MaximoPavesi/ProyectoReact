@@ -9,7 +9,7 @@ export const Header = () => {
                 <div className="logo">
                     <button>
                         <Link to={'/'}>
-                            <img src={process.env.PUBLIC_URL + '/img/logo.webp'}  alt="logo de la empresa" />
+                            <img src={'/img/logo.webp'}  alt="logo de la empresa" />
                         </Link>
                     </button>
                 </div>
