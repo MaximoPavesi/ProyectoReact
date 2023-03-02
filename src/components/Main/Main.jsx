@@ -8,8 +8,9 @@ export const Main = () => {
         <main>
             <Routes>
                 <Route path='/producto/:producto.Id' element= {<ItemDetail/>}/>
-                <Route path='/productos' element= {<ItemListContainer/>}/>
+                <Route path='/' element= {<ItemListContainer/>}/>
                 <Route path='/productos/:categoria/:subcategoria' element= {<ItemListContainer/>}/>
+                <Route path="/productos/:categoria" element= {<ItemListContainer/>}/>
             </Routes>
         </main>
     )
