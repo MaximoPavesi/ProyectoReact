@@ -22,16 +22,16 @@ const NavBar = () => {
 					<Link to={"/Inicio"}>Inicio</Link>
 				</li>
 				<li>
-					<Link to={"/productos/:botines/:nike"}>Nike</Link>
+					<Link to={"/productos/botines/nike"}>Nike</Link>
 				</li>
 				<li>
-					<Link to={"/productos/:botines/:adidas"}>Adidas</Link>
+					<Link to={"/productos/botines/adidas"}>Adidas</Link>
 				</li>
 				<li>
-					<Link to={"/productos/:camisetas"}>Camisetas</Link>
+					<Link to={"/productos/camisetas"}>Camisetas</Link>
 				</li>
 				<li>
-					<Link to={"/productos/:pelotas"}>Pelotas</Link>
+					<Link to={"/productos/pelotas"}>Pelotas</Link>
 				</li>
 
   		    </ul>
